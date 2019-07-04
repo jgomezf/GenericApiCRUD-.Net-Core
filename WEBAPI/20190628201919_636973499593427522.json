@@ -1,0 +1,3845 @@
+{
+  "EventType": "MyDBContext",
+  "Environment": {
+    "UserName": "KPG Developer",
+    "MachineName": "LAPTOP-53E5MGJF",
+    "DomainName": "LAPTOP-53E5MGJF",
+    "CallingMethodName": "DAL.Migrations.DbInitializer.SeedCountries()",
+    "AssemblyName": "DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "Culture": "es-419"
+  },
+  "StartDate": "2019-06-28T20:19:17.9958045Z",
+  "EndDate": "2019-06-28T20:19:19.3413233Z",
+  "Duration": 1346,
+  "EntityFrameworkEvent": {
+    "Database": "testdb",
+    "Entries": [
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 1
+        },
+        "ColumnValues": {
+          "Id": 1,
+          "Iso": "AF",
+          "Iso3": "AFG",
+          "Name": "AFGHANISTAN",
+          "NumCode": "004",
+          "PrintableName": "Afghanistan"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 152
+        },
+        "ColumnValues": {
+          "Id": 152,
+          "Iso": "AL",
+          "Iso3": "ALB",
+          "Name": "ALBANIA",
+          "NumCode": "008",
+          "PrintableName": "Albania"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 153
+        },
+        "ColumnValues": {
+          "Id": 153,
+          "Iso": "DZ",
+          "Iso3": "DZA",
+          "Name": "ALGERIA",
+          "NumCode": "012",
+          "PrintableName": "Algeria"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 154
+        },
+        "ColumnValues": {
+          "Id": 154,
+          "Iso": "AS",
+          "Iso3": "ASM",
+          "Name": "AMERICAN SAMOA",
+          "NumCode": "016",
+          "PrintableName": "American Samoa"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 155
+        },
+        "ColumnValues": {
+          "Id": 155,
+          "Iso": "AD",
+          "Iso3": "AND",
+          "Name": "ANDORRA",
+          "NumCode": "020",
+          "PrintableName": "Andorra"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 156
+        },
+        "ColumnValues": {
+          "Id": 156,
+          "Iso": "AO",
+          "Iso3": "AGO",
+          "Name": "ANGOLA",
+          "NumCode": "024",
+          "PrintableName": "Angola"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 157
+        },
+        "ColumnValues": {
+          "Id": 157,
+          "Iso": "AI",
+          "Iso3": "AIA",
+          "Name": "ANGUILLA",
+          "NumCode": "660",
+          "PrintableName": "Anguilla"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 158
+        },
+        "ColumnValues": {
+          "Id": 158,
+          "Iso": "AQ",
+          "Iso3": null,
+          "Name": "ANTARCTICA",
+          "NumCode": null,
+          "PrintableName": "Antarctica"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 159
+        },
+        "ColumnValues": {
+          "Id": 159,
+          "Iso": "AG",
+          "Iso3": "ATG",
+          "Name": "ANTIGUA AND BARBUDA",
+          "NumCode": "028",
+          "PrintableName": "Antigua and Barbuda"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 160
+        },
+        "ColumnValues": {
+          "Id": 160,
+          "Iso": "AR",
+          "Iso3": "ARG",
+          "Name": "ARGENTINA",
+          "NumCode": "032",
+          "PrintableName": "Argentina"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 161
+        },
+        "ColumnValues": {
+          "Id": 161,
+          "Iso": "AM",
+          "Iso3": "ARM",
+          "Name": "ARMENIA",
+          "NumCode": "051",
+          "PrintableName": "Armenia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 162
+        },
+        "ColumnValues": {
+          "Id": 162,
+          "Iso": "AW",
+          "Iso3": "ABW",
+          "Name": "ARUBA",
+          "NumCode": "533",
+          "PrintableName": "Aruba"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 163
+        },
+        "ColumnValues": {
+          "Id": 163,
+          "Iso": "AU",
+          "Iso3": "AUS",
+          "Name": "AUSTRALIA",
+          "NumCode": "036",
+          "PrintableName": "Australia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 165
+        },
+        "ColumnValues": {
+          "Id": 165,
+          "Iso": "AT",
+          "Iso3": "AUT",
+          "Name": "AUSTRIA",
+          "NumCode": "040",
+          "PrintableName": "Austria"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 178
+        },
+        "ColumnValues": {
+          "Id": 178,
+          "Iso": "AZ",
+          "Iso3": "AZE",
+          "Name": "AZERBAIJAN",
+          "NumCode": "031",
+          "PrintableName": "Azerbaijan"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 166
+        },
+        "ColumnValues": {
+          "Id": 166,
+          "Iso": "BS",
+          "Iso3": "BHS",
+          "Name": "BAHAMAS",
+          "NumCode": "044",
+          "PrintableName": "Bahamas"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 167
+        },
+        "ColumnValues": {
+          "Id": 167,
+          "Iso": "BH",
+          "Iso3": "BHR",
+          "Name": "BAHRAIN",
+          "NumCode": "048",
+          "PrintableName": "Bahrain"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 168
+        },
+        "ColumnValues": {
+          "Id": 168,
+          "Iso": "BD",
+          "Iso3": "BGD",
+          "Name": "BANGLADESH",
+          "NumCode": "050",
+          "PrintableName": "Bangladesh"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 169
+        },
+        "ColumnValues": {
+          "Id": 169,
+          "Iso": "BB",
+          "Iso3": "BRB",
+          "Name": "BARBADOS",
+          "NumCode": "052",
+          "PrintableName": "Barbados"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 170
+        },
+        "ColumnValues": {
+          "Id": 170,
+          "Iso": "BY",
+          "Iso3": "BLR",
+          "Name": "BELARUS",
+          "NumCode": "112",
+          "PrintableName": "Belarus"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 171
+        },
+        "ColumnValues": {
+          "Id": 171,
+          "Iso": "BE",
+          "Iso3": "BEL",
+          "Name": "BELGIUM",
+          "NumCode": "056",
+          "PrintableName": "Belgium"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 172
+        },
+        "ColumnValues": {
+          "Id": 172,
+          "Iso": "BZ",
+          "Iso3": "BLZ",
+          "Name": "BELIZE",
+          "NumCode": "084",
+          "PrintableName": "Belize"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 173
+        },
+        "ColumnValues": {
+          "Id": 173,
+          "Iso": "BJ",
+          "Iso3": "BEN",
+          "Name": "BENIN",
+          "NumCode": "204",
+          "PrintableName": "Benin"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 174
+        },
+        "ColumnValues": {
+          "Id": 174,
+          "Iso": "BM",
+          "Iso3": "BMU",
+          "Name": "BERMUDA",
+          "NumCode": "060",
+          "PrintableName": "Bermuda"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 175
+        },
+        "ColumnValues": {
+          "Id": 175,
+          "Iso": "BT",
+          "Iso3": "BTN",
+          "Name": "BHUTAN",
+          "NumCode": "064",
+          "PrintableName": "Bhutan"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 176
+        },
+        "ColumnValues": {
+          "Id": 176,
+          "Iso": "BO",
+          "Iso3": "BOL",
+          "Name": "BOLIVIA",
+          "NumCode": "068",
+          "PrintableName": "Bolivia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 177
+        },
+        "ColumnValues": {
+          "Id": 177,
+          "Iso": "BA",
+          "Iso3": "BIH",
+          "Name": "BOSNIA AND HERZEGOVINA",
+          "NumCode": "070",
+          "PrintableName": "Bosnia and Herzegovina"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 151
+        },
+        "ColumnValues": {
+          "Id": 151,
+          "Iso": "BW",
+          "Iso3": "BWA",
+          "Name": "BOTSWANA",
+          "NumCode": "072",
+          "PrintableName": "Botswana"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 164
+        },
+        "ColumnValues": {
+          "Id": 164,
+          "Iso": "BV",
+          "Iso3": null,
+          "Name": "BOUVET ISLAND",
+          "NumCode": null,
+          "PrintableName": "Bouvet Island"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 150
+        },
+        "ColumnValues": {
+          "Id": 150,
+          "Iso": "BR",
+          "Iso3": "BRA",
+          "Name": "BRAZIL",
+          "NumCode": "076",
+          "PrintableName": "Brazil"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 134
+        },
+        "ColumnValues": {
+          "Id": 134,
+          "Iso": "IO",
+          "Iso3": null,
+          "Name": "BRITISH INDIAN OCEAN TERRITORY",
+          "NumCode": null,
+          "PrintableName": "British Indian Ocean Territory"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 122
+        },
+        "ColumnValues": {
+          "Id": 122,
+          "Iso": "BN",
+          "Iso3": "BRN",
+          "Name": "BRUNEI DARUSSALAM",
+          "NumCode": "096",
+          "PrintableName": "Brunei Darussalam"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 123
+        },
+        "ColumnValues": {
+          "Id": 123,
+          "Iso": "BG",
+          "Iso3": "BGR",
+          "Name": "BULGARIA",
+          "NumCode": "100",
+          "PrintableName": "Bulgaria"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 124
+        },
+        "ColumnValues": {
+          "Id": 124,
+          "Iso": "BF",
+          "Iso3": "BFA",
+          "Name": "BURKINA FASO",
+          "NumCode": "854",
+          "PrintableName": "Burkina Faso"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 125
+        },
+        "ColumnValues": {
+          "Id": 125,
+          "Iso": "BI",
+          "Iso3": "BDI",
+          "Name": "BURUNDI",
+          "NumCode": "108",
+          "PrintableName": "Burundi"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 126
+        },
+        "ColumnValues": {
+          "Id": 126,
+          "Iso": "KH",
+          "Iso3": "KHM",
+          "Name": "CAMBODIA",
+          "NumCode": "116",
+          "PrintableName": "Cambodia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 127
+        },
+        "ColumnValues": {
+          "Id": 127,
+          "Iso": "CM",
+          "Iso3": "CMR",
+          "Name": "CAMEROON",
+          "NumCode": "120",
+          "PrintableName": "Cameroon"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 128
+        },
+        "ColumnValues": {
+          "Id": 128,
+          "Iso": "CA",
+          "Iso3": "CAN",
+          "Name": "CANADA",
+          "NumCode": "124",
+          "PrintableName": "Canada"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 129
+        },
+        "ColumnValues": {
+          "Id": 129,
+          "Iso": "CV",
+          "Iso3": "CPV",
+          "Name": "CAPE VERDE",
+          "NumCode": "132",
+          "PrintableName": "Cape Verde"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 130
+        },
+        "ColumnValues": {
+          "Id": 130,
+          "Iso": "KY",
+          "Iso3": "CYM",
+          "Name": "CAYMAN ISLANDS",
+          "NumCode": "136",
+          "PrintableName": "Cayman Islands"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 131
+        },
+        "ColumnValues": {
+          "Id": 131,
+          "Iso": "CF",
+          "Iso3": "CAF",
+          "Name": "CENTRAL AFRICAN REPUBLIC",
+          "NumCode": "140",
+          "PrintableName": "Central African Republic"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 132
+        },
+        "ColumnValues": {
+          "Id": 132,
+          "Iso": "TD",
+          "Iso3": "TCD",
+          "Name": "CHAD",
+          "NumCode": "148",
+          "PrintableName": "Chad"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 133
+        },
+        "ColumnValues": {
+          "Id": 133,
+          "Iso": "CL",
+          "Iso3": "CHL",
+          "Name": "CHILE",
+          "NumCode": "152",
+          "PrintableName": "Chile"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 135
+        },
+        "ColumnValues": {
+          "Id": 135,
+          "Iso": "CN",
+          "Iso3": "CHN",
+          "Name": "CHINA",
+          "NumCode": "156",
+          "PrintableName": "China"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 148
+        },
+        "ColumnValues": {
+          "Id": 148,
+          "Iso": "CX",
+          "Iso3": null,
+          "Name": "CHRISTMAS ISLAND",
+          "NumCode": null,
+          "PrintableName": "Christmas Island"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 136
+        },
+        "ColumnValues": {
+          "Id": 136,
+          "Iso": "CC",
+          "Iso3": null,
+          "Name": "COCOS (KEELING) ISLANDS",
+          "NumCode": null,
+          "PrintableName": "Cocos (Keeling) Islands"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 137
+        },
+        "ColumnValues": {
+          "Id": 137,
+          "Iso": "CO",
+          "Iso3": "COL",
+          "Name": "COLOMBIA",
+          "NumCode": "170",
+          "PrintableName": "Colombia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 138
+        },
+        "ColumnValues": {
+          "Id": 138,
+          "Iso": "KM",
+          "Iso3": "COM",
+          "Name": "COMOROS",
+          "NumCode": "174",
+          "PrintableName": "Comoros"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 139
+        },
+        "ColumnValues": {
+          "Id": 139,
+          "Iso": "CG",
+          "Iso3": "COG",
+          "Name": "CONGO",
+          "NumCode": "178",
+          "PrintableName": "Congo"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 140
+        },
+        "ColumnValues": {
+          "Id": 140,
+          "Iso": "CD",
+          "Iso3": "COD",
+          "Name": "CONGO  THE DEMOCRATIC REPUBLIC OF THE",
+          "NumCode": "180",
+          "PrintableName": "Congo the Democratic Republic of the"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 141
+        },
+        "ColumnValues": {
+          "Id": 141,
+          "Iso": "CK",
+          "Iso3": "COK",
+          "Name": "COOK ISLANDS",
+          "NumCode": "184",
+          "PrintableName": "Cook Islands"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 142
+        },
+        "ColumnValues": {
+          "Id": 142,
+          "Iso": "CR",
+          "Iso3": "CRI",
+          "Name": "COSTA RICA",
+          "NumCode": "188",
+          "PrintableName": "Costa Rica"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 143
+        },
+        "ColumnValues": {
+          "Id": 143,
+          "Iso": "CI",
+          "Iso3": "CIV",
+          "Name": "COTE D\"IVOIRE",
+          "NumCode": "384",
+          "PrintableName": "Cote D\"Ivoire"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 144
+        },
+        "ColumnValues": {
+          "Id": 144,
+          "Iso": "HR",
+          "Iso3": "HRV",
+          "Name": "CROATIA",
+          "NumCode": "191",
+          "PrintableName": "Croatia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 145
+        },
+        "ColumnValues": {
+          "Id": 145,
+          "Iso": "CU",
+          "Iso3": "CUB",
+          "Name": "CUBA",
+          "NumCode": "192",
+          "PrintableName": "Cuba"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 146
+        },
+        "ColumnValues": {
+          "Id": 146,
+          "Iso": "CY",
+          "Iso3": "CYP",
+          "Name": "CYPRUS",
+          "NumCode": "196",
+          "PrintableName": "Cyprus"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 147
+        },
+        "ColumnValues": {
+          "Id": 147,
+          "Iso": "CZ",
+          "Iso3": "CZE",
+          "Name": "CZECH REPUBLIC",
+          "NumCode": "203",
+          "PrintableName": "Czech Republic"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 149
+        },
+        "ColumnValues": {
+          "Id": 149,
+          "Iso": "DK",
+          "Iso3": "DNK",
+          "Name": "DENMARK",
+          "NumCode": "208",
+          "PrintableName": "Denmark"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 180
+        },
+        "ColumnValues": {
+          "Id": 180,
+          "Iso": "DJ",
+          "Iso3": "DJI",
+          "Name": "DJIBOUTI",
+          "NumCode": "262",
+          "PrintableName": "Djibouti"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 209
+        },
+        "ColumnValues": {
+          "Id": 209,
+          "Iso": "DM",
+          "Iso3": "DMA",
+          "Name": "DOMINICA",
+          "NumCode": "212",
+          "PrintableName": "Dominica"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 181
+        },
+        "ColumnValues": {
+          "Id": 181,
+          "Iso": "DO",
+          "Iso3": "DOM",
+          "Name": "DOMINICAN REPUBLIC",
+          "NumCode": "214",
+          "PrintableName": "Dominican Republic"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 212
+        },
+        "ColumnValues": {
+          "Id": 212,
+          "Iso": "EC",
+          "Iso3": "ECU",
+          "Name": "ECUADOR",
+          "NumCode": "218",
+          "PrintableName": "Ecuador"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 213
+        },
+        "ColumnValues": {
+          "Id": 213,
+          "Iso": "EG",
+          "Iso3": "EGY",
+          "Name": "EGYPT",
+          "NumCode": "818",
+          "PrintableName": "Egypt"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 214
+        },
+        "ColumnValues": {
+          "Id": 214,
+          "Iso": "SV",
+          "Iso3": "SLV",
+          "Name": "EL SALVADOR",
+          "NumCode": "222",
+          "PrintableName": "El Salvador"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 215
+        },
+        "ColumnValues": {
+          "Id": 215,
+          "Iso": "GQ",
+          "Iso3": "GNQ",
+          "Name": "EQUATORIAL GUINEA",
+          "NumCode": "226",
+          "PrintableName": "Equatorial Guinea"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 216
+        },
+        "ColumnValues": {
+          "Id": 216,
+          "Iso": "ER",
+          "Iso3": "ERI",
+          "Name": "ERITREA",
+          "NumCode": "232",
+          "PrintableName": "Eritrea"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 217
+        },
+        "ColumnValues": {
+          "Id": 217,
+          "Iso": "EE",
+          "Iso3": "EST",
+          "Name": "ESTONIA",
+          "NumCode": "233",
+          "PrintableName": "Estonia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 218
+        },
+        "ColumnValues": {
+          "Id": 218,
+          "Iso": "ET",
+          "Iso3": "ETH",
+          "Name": "ETHIOPIA",
+          "NumCode": "231",
+          "PrintableName": "Ethiopia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 219
+        },
+        "ColumnValues": {
+          "Id": 219,
+          "Iso": "FK",
+          "Iso3": "FLK",
+          "Name": "FALKLAND ISLANDS (MALVINAS)",
+          "NumCode": "238",
+          "PrintableName": "Falkland Islands (Malvinas)"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 220
+        },
+        "ColumnValues": {
+          "Id": 220,
+          "Iso": "FO",
+          "Iso3": "FRO",
+          "Name": "FAROE ISLANDS",
+          "NumCode": "234",
+          "PrintableName": "Faroe Islands"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 221
+        },
+        "ColumnValues": {
+          "Id": 221,
+          "Iso": "FJ",
+          "Iso3": "FJI",
+          "Name": "FIJI",
+          "NumCode": "242",
+          "PrintableName": "Fiji"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 222
+        },
+        "ColumnValues": {
+          "Id": 222,
+          "Iso": "FI",
+          "Iso3": "FIN",
+          "Name": "FINLAND",
+          "NumCode": "246",
+          "PrintableName": "Finland"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 223
+        },
+        "ColumnValues": {
+          "Id": 223,
+          "Iso": "FR",
+          "Iso3": "FRA",
+          "Name": "FRANCE",
+          "NumCode": "250",
+          "PrintableName": "France"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 225
+        },
+        "ColumnValues": {
+          "Id": 225,
+          "Iso": "GF",
+          "Iso3": "GUF",
+          "Name": "FRENCH GUIANA",
+          "NumCode": "254",
+          "PrintableName": "French Guiana"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 238
+        },
+        "ColumnValues": {
+          "Id": 238,
+          "Iso": "PF",
+          "Iso3": "PYF",
+          "Name": "FRENCH POLYNESIA",
+          "NumCode": "258",
+          "PrintableName": "French Polynesia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 226
+        },
+        "ColumnValues": {
+          "Id": 226,
+          "Iso": "TF",
+          "Iso3": null,
+          "Name": "FRENCH SOUTHERN TERRITORIES",
+          "NumCode": null,
+          "PrintableName": "French Southern Territories"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 227
+        },
+        "ColumnValues": {
+          "Id": 227,
+          "Iso": "GA",
+          "Iso3": "GAB",
+          "Name": "GABON",
+          "NumCode": "266",
+          "PrintableName": "Gabon"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 228
+        },
+        "ColumnValues": {
+          "Id": 228,
+          "Iso": "GM",
+          "Iso3": "GMB",
+          "Name": "GAMBIA",
+          "NumCode": "270",
+          "PrintableName": "Gambia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 229
+        },
+        "ColumnValues": {
+          "Id": 229,
+          "Iso": "GE",
+          "Iso3": "GEO",
+          "Name": "GEORGIA",
+          "NumCode": "268",
+          "PrintableName": "Georgia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 230
+        },
+        "ColumnValues": {
+          "Id": 230,
+          "Iso": "DE",
+          "Iso3": "DEU",
+          "Name": "GERMANY",
+          "NumCode": "276",
+          "PrintableName": "Germany"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 231
+        },
+        "ColumnValues": {
+          "Id": 231,
+          "Iso": "GH",
+          "Iso3": "GHA",
+          "Name": "GHANA",
+          "NumCode": "288",
+          "PrintableName": "Ghana"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 232
+        },
+        "ColumnValues": {
+          "Id": 232,
+          "Iso": "GI",
+          "Iso3": "GIB",
+          "Name": "GIBRALTAR",
+          "NumCode": "292",
+          "PrintableName": "Gibraltar"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 233
+        },
+        "ColumnValues": {
+          "Id": 233,
+          "Iso": "GR",
+          "Iso3": "GRC",
+          "Name": "GREECE",
+          "NumCode": "300",
+          "PrintableName": "Greece"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 234
+        },
+        "ColumnValues": {
+          "Id": 234,
+          "Iso": "GL",
+          "Iso3": "GRL",
+          "Name": "GREENLAND",
+          "NumCode": "304",
+          "PrintableName": "Greenland"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 235
+        },
+        "ColumnValues": {
+          "Id": 235,
+          "Iso": "GD",
+          "Iso3": "GRD",
+          "Name": "GRENADA",
+          "NumCode": "308",
+          "PrintableName": "Grenada"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 236
+        },
+        "ColumnValues": {
+          "Id": 236,
+          "Iso": "GP",
+          "Iso3": "GLP",
+          "Name": "GUADELOUPE",
+          "NumCode": "312",
+          "PrintableName": "Guadeloupe"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 237
+        },
+        "ColumnValues": {
+          "Id": 237,
+          "Iso": "GU",
+          "Iso3": "GUM",
+          "Name": "GUAM",
+          "NumCode": "316",
+          "PrintableName": "Guam"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 211
+        },
+        "ColumnValues": {
+          "Id": 211,
+          "Iso": "GT",
+          "Iso3": "GTM",
+          "Name": "GUATEMALA",
+          "NumCode": "320",
+          "PrintableName": "Guatemala"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 224
+        },
+        "ColumnValues": {
+          "Id": 224,
+          "Iso": "GN",
+          "Iso3": "GIN",
+          "Name": "GUINEA",
+          "NumCode": "324",
+          "PrintableName": "Guinea"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 210
+        },
+        "ColumnValues": {
+          "Id": 210,
+          "Iso": "GW",
+          "Iso3": "GNB",
+          "Name": "GUINEA-BISSAU",
+          "NumCode": "624",
+          "PrintableName": "Guinea-Bissau"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 194
+        },
+        "ColumnValues": {
+          "Id": 194,
+          "Iso": "GY",
+          "Iso3": "GUY",
+          "Name": "GUYANA",
+          "NumCode": "328",
+          "PrintableName": "Guyana"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 182
+        },
+        "ColumnValues": {
+          "Id": 182,
+          "Iso": "HT",
+          "Iso3": "HTI",
+          "Name": "HAITI",
+          "NumCode": "332",
+          "PrintableName": "Haiti"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 183
+        },
+        "ColumnValues": {
+          "Id": 183,
+          "Iso": "HM",
+          "Iso3": null,
+          "Name": "HEARD ISLAND AND MCDONALD ISLANDS",
+          "NumCode": null,
+          "PrintableName": "Heard Island and Mcdonald Islands"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 184
+        },
+        "ColumnValues": {
+          "Id": 184,
+          "Iso": "VA",
+          "Iso3": "VAT",
+          "Name": "HOLY SEE (VATICAN CITY STATE)",
+          "NumCode": "336",
+          "PrintableName": "Holy See (Vatican City State)"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 185
+        },
+        "ColumnValues": {
+          "Id": 185,
+          "Iso": "HN",
+          "Iso3": "HND",
+          "Name": "HONDURAS",
+          "NumCode": "340",
+          "PrintableName": "Honduras"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 186
+        },
+        "ColumnValues": {
+          "Id": 186,
+          "Iso": "HK",
+          "Iso3": "HKG",
+          "Name": "HONG KONG",
+          "NumCode": "344",
+          "PrintableName": "Hong Kong"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 187
+        },
+        "ColumnValues": {
+          "Id": 187,
+          "Iso": "HU",
+          "Iso3": "HUN",
+          "Name": "HUNGARY",
+          "NumCode": "348",
+          "PrintableName": "Hungary"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 188
+        },
+        "ColumnValues": {
+          "Id": 188,
+          "Iso": "IS",
+          "Iso3": "ISL",
+          "Name": "ICELAND",
+          "NumCode": "352",
+          "PrintableName": "Iceland"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 189
+        },
+        "ColumnValues": {
+          "Id": 189,
+          "Iso": "IN",
+          "Iso3": "IND",
+          "Name": "INDIA",
+          "NumCode": "356",
+          "PrintableName": "India"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 190
+        },
+        "ColumnValues": {
+          "Id": 190,
+          "Iso": "ID",
+          "Iso3": "IDN",
+          "Name": "INDONESIA",
+          "NumCode": "360",
+          "PrintableName": "Indonesia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 191
+        },
+        "ColumnValues": {
+          "Id": 191,
+          "Iso": "IR",
+          "Iso3": "IRN",
+          "Name": "IRAN ISLAMIC REPUBLIC OF",
+          "NumCode": "364",
+          "PrintableName": "Iran  Islamic Republic of"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 192
+        },
+        "ColumnValues": {
+          "Id": 192,
+          "Iso": "IQ",
+          "Iso3": "IRQ",
+          "Name": "IRAQ",
+          "NumCode": "368",
+          "PrintableName": "Iraq"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 193
+        },
+        "ColumnValues": {
+          "Id": 193,
+          "Iso": "IE",
+          "Iso3": "IRL",
+          "Name": "IRELAND",
+          "NumCode": "372",
+          "PrintableName": "Ireland"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 195
+        },
+        "ColumnValues": {
+          "Id": 195,
+          "Iso": "IL",
+          "Iso3": "ISR",
+          "Name": "ISRAEL",
+          "NumCode": "376",
+          "PrintableName": "Israel"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 208
+        },
+        "ColumnValues": {
+          "Id": 208,
+          "Iso": "IT",
+          "Iso3": "ITA",
+          "Name": "ITALY",
+          "NumCode": "380",
+          "PrintableName": "Italy"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 196
+        },
+        "ColumnValues": {
+          "Id": 196,
+          "Iso": "JM",
+          "Iso3": "JAM",
+          "Name": "JAMAICA",
+          "NumCode": "388",
+          "PrintableName": "Jamaica"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 197
+        },
+        "ColumnValues": {
+          "Id": 197,
+          "Iso": "JP",
+          "Iso3": "JPN",
+          "Name": "JAPAN",
+          "NumCode": "392",
+          "PrintableName": "Japan"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 198
+        },
+        "ColumnValues": {
+          "Id": 198,
+          "Iso": "JO",
+          "Iso3": "JOR",
+          "Name": "JORDAN",
+          "NumCode": "400",
+          "PrintableName": "Jordan"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 199
+        },
+        "ColumnValues": {
+          "Id": 199,
+          "Iso": "KZ",
+          "Iso3": "KAZ",
+          "Name": "KAZAKHSTAN",
+          "NumCode": "398",
+          "PrintableName": "Kazakhstan"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 200
+        },
+        "ColumnValues": {
+          "Id": 200,
+          "Iso": "KE",
+          "Iso3": "KEN",
+          "Name": "KENYA",
+          "NumCode": "404",
+          "PrintableName": "Kenya"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 201
+        },
+        "ColumnValues": {
+          "Id": 201,
+          "Iso": "KI",
+          "Iso3": "KIR",
+          "Name": "KIRIBATI",
+          "NumCode": "296",
+          "PrintableName": "Kiribati"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 202
+        },
+        "ColumnValues": {
+          "Id": 202,
+          "Iso": "KP",
+          "Iso3": "PRK",
+          "Name": "KOREA  DEMOCRATIC PEOPLE\"S REPUBLIC OF",
+          "NumCode": "408",
+          "PrintableName": "Korea Democratic People\"s Republic of"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 203
+        },
+        "ColumnValues": {
+          "Id": 203,
+          "Iso": "KR",
+          "Iso3": "KOR",
+          "Name": "KOREA REPUBLIC OF",
+          "NumCode": "410",
+          "PrintableName": "Korea Republic of"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 204
+        },
+        "ColumnValues": {
+          "Id": 204,
+          "Iso": "KW",
+          "Iso3": null,
+          "Name": "KUWAIT",
+          "NumCode": null,
+          "PrintableName": "KWT"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 205
+        },
+        "ColumnValues": {
+          "Id": 205,
+          "Iso": "KG",
+          "Iso3": null,
+          "Name": "KYRGYZSTAN",
+          "NumCode": null,
+          "PrintableName": "KGZ"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 206
+        },
+        "ColumnValues": {
+          "Id": 206,
+          "Iso": "LA",
+          "Iso3": null,
+          "Name": "LAO PEOPLE\"S DEMOCRATIC REPUBLIC",
+          "NumCode": null,
+          "PrintableName": "LAO"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 207
+        },
+        "ColumnValues": {
+          "Id": 207,
+          "Iso": "LV",
+          "Iso3": null,
+          "Name": "LATVIA",
+          "NumCode": null,
+          "PrintableName": "LVA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 121
+        },
+        "ColumnValues": {
+          "Id": 121,
+          "Iso": "LB",
+          "Iso3": null,
+          "Name": "LEBANON",
+          "NumCode": null,
+          "PrintableName": "LBN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 179
+        },
+        "ColumnValues": {
+          "Id": 179,
+          "Iso": "LS",
+          "Iso3": null,
+          "Name": "LESOTHO",
+          "NumCode": null,
+          "PrintableName": "LSO"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 120
+        },
+        "ColumnValues": {
+          "Id": 120,
+          "Iso": "LR",
+          "Iso3": null,
+          "Name": "LIBERIA",
+          "NumCode": null,
+          "PrintableName": "LBR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 59
+        },
+        "ColumnValues": {
+          "Id": 59,
+          "Iso": "LY",
+          "Iso3": null,
+          "Name": "LIBYAN ARAB JAMAHIRIYA",
+          "NumCode": null,
+          "PrintableName": "LBY"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 32
+        },
+        "ColumnValues": {
+          "Id": 32,
+          "Iso": "LI",
+          "Iso3": null,
+          "Name": "LIECHTENSTEIN",
+          "NumCode": null,
+          "PrintableName": "LIE"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 33
+        },
+        "ColumnValues": {
+          "Id": 33,
+          "Iso": "LT",
+          "Iso3": null,
+          "Name": "LITHUANIA",
+          "NumCode": null,
+          "PrintableName": "LTU"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 34
+        },
+        "ColumnValues": {
+          "Id": 34,
+          "Iso": "LU",
+          "Iso3": null,
+          "Name": "LUXEMBOURG",
+          "NumCode": null,
+          "PrintableName": "LUX"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 35
+        },
+        "ColumnValues": {
+          "Id": 35,
+          "Iso": "MO",
+          "Iso3": null,
+          "Name": "MACAO",
+          "NumCode": null,
+          "PrintableName": "MAC"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 36
+        },
+        "ColumnValues": {
+          "Id": 36,
+          "Iso": "MK",
+          "Iso3": "MKD",
+          "Name": "MACEDONIA THE FORMER YUGOSLAV REPUBLIC OF",
+          "NumCode": "807",
+          "PrintableName": "Macedonia the Former Yugoslav Republic of"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 37
+        },
+        "ColumnValues": {
+          "Id": 37,
+          "Iso": "MG",
+          "Iso3": null,
+          "Name": "MADAGASCAR",
+          "NumCode": null,
+          "PrintableName": "MDG"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 38
+        },
+        "ColumnValues": {
+          "Id": 38,
+          "Iso": "MW",
+          "Iso3": null,
+          "Name": "MALAWI",
+          "NumCode": null,
+          "PrintableName": "MWI"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 39
+        },
+        "ColumnValues": {
+          "Id": 39,
+          "Iso": "MY",
+          "Iso3": null,
+          "Name": "MALAYSIA",
+          "NumCode": null,
+          "PrintableName": "MYS"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 40
+        },
+        "ColumnValues": {
+          "Id": 40,
+          "Iso": "MV",
+          "Iso3": null,
+          "Name": "MALDIVES",
+          "NumCode": null,
+          "PrintableName": "MDV"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 41
+        },
+        "ColumnValues": {
+          "Id": 41,
+          "Iso": "ML",
+          "Iso3": null,
+          "Name": "MALI",
+          "NumCode": null,
+          "PrintableName": "MLI"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 42
+        },
+        "ColumnValues": {
+          "Id": 42,
+          "Iso": "MT",
+          "Iso3": null,
+          "Name": "MALTA",
+          "NumCode": null,
+          "PrintableName": "MLT"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 43
+        },
+        "ColumnValues": {
+          "Id": 43,
+          "Iso": "MH",
+          "Iso3": null,
+          "Name": "MARSHALL ISLANDS",
+          "NumCode": null,
+          "PrintableName": "MHL"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 45
+        },
+        "ColumnValues": {
+          "Id": 45,
+          "Iso": "MQ",
+          "Iso3": null,
+          "Name": "MARTINIQUE",
+          "NumCode": null,
+          "PrintableName": "MTQ"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 58
+        },
+        "ColumnValues": {
+          "Id": 58,
+          "Iso": "MR",
+          "Iso3": null,
+          "Name": "MAURITANIA",
+          "NumCode": null,
+          "PrintableName": "MRT"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 46
+        },
+        "ColumnValues": {
+          "Id": 46,
+          "Iso": "MU",
+          "Iso3": null,
+          "Name": "MAURITIUS",
+          "NumCode": null,
+          "PrintableName": "MUS"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 47
+        },
+        "ColumnValues": {
+          "Id": 47,
+          "Iso": "YT",
+          "Iso3": null,
+          "Name": "MAYOTTE",
+          "NumCode": null,
+          "PrintableName": null
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 48
+        },
+        "ColumnValues": {
+          "Id": 48,
+          "Iso": "MX",
+          "Iso3": null,
+          "Name": "MEXICO",
+          "NumCode": null,
+          "PrintableName": "MEX"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 49
+        },
+        "ColumnValues": {
+          "Id": 49,
+          "Iso": "FM",
+          "Iso3": "FSM",
+          "Name": "MICRONESIA FEDERATED STATES OF",
+          "NumCode": "583",
+          "PrintableName": "Micronesia Federated States of"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 50
+        },
+        "ColumnValues": {
+          "Id": 50,
+          "Iso": "MD",
+          "Iso3": "MDA",
+          "Name": "MOLDOVA REPUBLIC OF",
+          "NumCode": "498",
+          "PrintableName": "Moldova Republic of"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 51
+        },
+        "ColumnValues": {
+          "Id": 51,
+          "Iso": "MC",
+          "Iso3": null,
+          "Name": "MONACO",
+          "NumCode": null,
+          "PrintableName": "MCO"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 52
+        },
+        "ColumnValues": {
+          "Id": 52,
+          "Iso": "MN",
+          "Iso3": null,
+          "Name": "MONGOLIA",
+          "NumCode": null,
+          "PrintableName": "MNG"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 53
+        },
+        "ColumnValues": {
+          "Id": 53,
+          "Iso": "MS",
+          "Iso3": null,
+          "Name": "MONTSERRAT",
+          "NumCode": null,
+          "PrintableName": "MSR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 54
+        },
+        "ColumnValues": {
+          "Id": 54,
+          "Iso": "MA",
+          "Iso3": null,
+          "Name": "MOROCCO",
+          "NumCode": null,
+          "PrintableName": "MAR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 55
+        },
+        "ColumnValues": {
+          "Id": 55,
+          "Iso": "MZ",
+          "Iso3": null,
+          "Name": "MOZAMBIQUE",
+          "NumCode": null,
+          "PrintableName": "MOZ"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 56
+        },
+        "ColumnValues": {
+          "Id": 56,
+          "Iso": "MM",
+          "Iso3": null,
+          "Name": "MYANMAR",
+          "NumCode": null,
+          "PrintableName": "MMR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 57
+        },
+        "ColumnValues": {
+          "Id": 57,
+          "Iso": "NA",
+          "Iso3": null,
+          "Name": "NAMIBIA",
+          "NumCode": null,
+          "PrintableName": "NAM"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 31
+        },
+        "ColumnValues": {
+          "Id": 31,
+          "Iso": "NR",
+          "Iso3": null,
+          "Name": "NAURU",
+          "NumCode": null,
+          "PrintableName": "NRU"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 44
+        },
+        "ColumnValues": {
+          "Id": 44,
+          "Iso": "NP",
+          "Iso3": null,
+          "Name": "NEPAL",
+          "NumCode": null,
+          "PrintableName": "NPL"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 30
+        },
+        "ColumnValues": {
+          "Id": 30,
+          "Iso": "NL",
+          "Iso3": null,
+          "Name": "NETHERLANDS",
+          "NumCode": null,
+          "PrintableName": "NLD"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 14
+        },
+        "ColumnValues": {
+          "Id": 14,
+          "Iso": "AN",
+          "Iso3": null,
+          "Name": "NETHERLANDS ANTILLES",
+          "NumCode": null,
+          "PrintableName": "ANT"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 2
+        },
+        "ColumnValues": {
+          "Id": 2,
+          "Iso": "NC",
+          "Iso3": null,
+          "Name": "NEW CALEDONIA",
+          "NumCode": null,
+          "PrintableName": "NCL"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 3
+        },
+        "ColumnValues": {
+          "Id": 3,
+          "Iso": "NZ",
+          "Iso3": null,
+          "Name": "NEW ZEALAND",
+          "NumCode": null,
+          "PrintableName": "NZL"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 4
+        },
+        "ColumnValues": {
+          "Id": 4,
+          "Iso": "NI",
+          "Iso3": null,
+          "Name": "NICARAGUA",
+          "NumCode": null,
+          "PrintableName": "NIC"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 5
+        },
+        "ColumnValues": {
+          "Id": 5,
+          "Iso": "NE",
+          "Iso3": null,
+          "Name": "NIGER",
+          "NumCode": null,
+          "PrintableName": "NER"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 6
+        },
+        "ColumnValues": {
+          "Id": 6,
+          "Iso": "NG",
+          "Iso3": null,
+          "Name": "NIGERIA",
+          "NumCode": null,
+          "PrintableName": "NGA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 7
+        },
+        "ColumnValues": {
+          "Id": 7,
+          "Iso": "NU",
+          "Iso3": null,
+          "Name": "NIUE",
+          "NumCode": null,
+          "PrintableName": "NIU"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 8
+        },
+        "ColumnValues": {
+          "Id": 8,
+          "Iso": "NF",
+          "Iso3": null,
+          "Name": "NORFOLK ISLAND",
+          "NumCode": null,
+          "PrintableName": "NFK"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 9
+        },
+        "ColumnValues": {
+          "Id": 9,
+          "Iso": "MP",
+          "Iso3": null,
+          "Name": "NORTHERN MARIANA ISLANDS",
+          "NumCode": null,
+          "PrintableName": "MNP"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 10
+        },
+        "ColumnValues": {
+          "Id": 10,
+          "Iso": "NO",
+          "Iso3": null,
+          "Name": "NORWAY",
+          "NumCode": null,
+          "PrintableName": "NOR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 11
+        },
+        "ColumnValues": {
+          "Id": 11,
+          "Iso": "OM",
+          "Iso3": null,
+          "Name": "OMAN",
+          "NumCode": null,
+          "PrintableName": "OMN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 12
+        },
+        "ColumnValues": {
+          "Id": 12,
+          "Iso": "PK",
+          "Iso3": null,
+          "Name": "PAKISTAN",
+          "NumCode": null,
+          "PrintableName": "PAK"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 13
+        },
+        "ColumnValues": {
+          "Id": 13,
+          "Iso": "PW",
+          "Iso3": null,
+          "Name": "PALAU",
+          "NumCode": null,
+          "PrintableName": "PLW"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 15
+        },
+        "ColumnValues": {
+          "Id": 15,
+          "Iso": "PS",
+          "Iso3": null,
+          "Name": "PALESTINIAN TERRITORY OCCUPIED",
+          "NumCode": null,
+          "PrintableName": "Palestinian Territory Occupied"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 28
+        },
+        "ColumnValues": {
+          "Id": 28,
+          "Iso": "PA",
+          "Iso3": null,
+          "Name": "PANAMA",
+          "NumCode": null,
+          "PrintableName": "PAN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 16
+        },
+        "ColumnValues": {
+          "Id": 16,
+          "Iso": "PG",
+          "Iso3": null,
+          "Name": "PAPUA NEW GUINEA",
+          "NumCode": null,
+          "PrintableName": "PNG"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 17
+        },
+        "ColumnValues": {
+          "Id": 17,
+          "Iso": "PY",
+          "Iso3": null,
+          "Name": "PARAGUAY",
+          "NumCode": null,
+          "PrintableName": "PRY"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 18
+        },
+        "ColumnValues": {
+          "Id": 18,
+          "Iso": "PE",
+          "Iso3": null,
+          "Name": "PERU",
+          "NumCode": null,
+          "PrintableName": "PER"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 19
+        },
+        "ColumnValues": {
+          "Id": 19,
+          "Iso": "PH",
+          "Iso3": null,
+          "Name": "PHILIPPINES",
+          "NumCode": null,
+          "PrintableName": "PHL"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 20
+        },
+        "ColumnValues": {
+          "Id": 20,
+          "Iso": "PN",
+          "Iso3": null,
+          "Name": "PITCAIRN",
+          "NumCode": null,
+          "PrintableName": "PCN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 21
+        },
+        "ColumnValues": {
+          "Id": 21,
+          "Iso": "PL",
+          "Iso3": null,
+          "Name": "POLAND",
+          "NumCode": null,
+          "PrintableName": "POL"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 22
+        },
+        "ColumnValues": {
+          "Id": 22,
+          "Iso": "PT",
+          "Iso3": null,
+          "Name": "PORTUGAL",
+          "NumCode": null,
+          "PrintableName": "PRT"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 23
+        },
+        "ColumnValues": {
+          "Id": 23,
+          "Iso": "PR",
+          "Iso3": null,
+          "Name": "PUERTO RICO",
+          "NumCode": null,
+          "PrintableName": "PRI"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 24
+        },
+        "ColumnValues": {
+          "Id": 24,
+          "Iso": "QA",
+          "Iso3": null,
+          "Name": "QATAR",
+          "NumCode": null,
+          "PrintableName": "QAT"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 25
+        },
+        "ColumnValues": {
+          "Id": 25,
+          "Iso": "RE",
+          "Iso3": null,
+          "Name": "REUNION",
+          "NumCode": null,
+          "PrintableName": "REU"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 26
+        },
+        "ColumnValues": {
+          "Id": 26,
+          "Iso": "RO",
+          "Iso3": null,
+          "Name": "ROMANIA",
+          "NumCode": null,
+          "PrintableName": "ROM"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 27
+        },
+        "ColumnValues": {
+          "Id": 27,
+          "Iso": "RU",
+          "Iso3": null,
+          "Name": "RUSSIAN FEDERATION",
+          "NumCode": null,
+          "PrintableName": "RUS"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 29
+        },
+        "ColumnValues": {
+          "Id": 29,
+          "Iso": "RW",
+          "Iso3": null,
+          "Name": "RWANDA",
+          "NumCode": null,
+          "PrintableName": "RWA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 60
+        },
+        "ColumnValues": {
+          "Id": 60,
+          "Iso": "SH",
+          "Iso3": null,
+          "Name": "SAINT HELENA",
+          "NumCode": null,
+          "PrintableName": "SHN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 89
+        },
+        "ColumnValues": {
+          "Id": 89,
+          "Iso": "KN",
+          "Iso3": null,
+          "Name": "SAINT KITTS AND NEVIS",
+          "NumCode": null,
+          "PrintableName": "KNA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 61
+        },
+        "ColumnValues": {
+          "Id": 61,
+          "Iso": "LC",
+          "Iso3": null,
+          "Name": "SAINT LUCIA",
+          "NumCode": null,
+          "PrintableName": "LCA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 92
+        },
+        "ColumnValues": {
+          "Id": 92,
+          "Iso": "PM",
+          "Iso3": null,
+          "Name": "SAINT PIERRE AND MIQUELON",
+          "NumCode": null,
+          "PrintableName": "SPM"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 93
+        },
+        "ColumnValues": {
+          "Id": 93,
+          "Iso": "VC",
+          "Iso3": null,
+          "Name": "SAINT VINCENT AND THE GRENADINES",
+          "NumCode": null,
+          "PrintableName": "VCT"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 94
+        },
+        "ColumnValues": {
+          "Id": 94,
+          "Iso": "WS",
+          "Iso3": null,
+          "Name": "SAMOA",
+          "NumCode": null,
+          "PrintableName": "WSM"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 95
+        },
+        "ColumnValues": {
+          "Id": 95,
+          "Iso": "SM",
+          "Iso3": null,
+          "Name": "SAN MARINO",
+          "NumCode": null,
+          "PrintableName": "SMR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 96
+        },
+        "ColumnValues": {
+          "Id": 96,
+          "Iso": "ST",
+          "Iso3": null,
+          "Name": "SAO TOME AND PRINCIPE",
+          "NumCode": null,
+          "PrintableName": "STP"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 97
+        },
+        "ColumnValues": {
+          "Id": 97,
+          "Iso": "SA",
+          "Iso3": null,
+          "Name": "SAUDI ARABIA",
+          "NumCode": null,
+          "PrintableName": "SAU"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 98
+        },
+        "ColumnValues": {
+          "Id": 98,
+          "Iso": "SN",
+          "Iso3": null,
+          "Name": "SENEGAL",
+          "NumCode": null,
+          "PrintableName": "SEN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 99
+        },
+        "ColumnValues": {
+          "Id": 99,
+          "Iso": "CS",
+          "Iso3": null,
+          "Name": "SERBIA AND MONTENEGRO",
+          "NumCode": null,
+          "PrintableName": null
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 100
+        },
+        "ColumnValues": {
+          "Id": 100,
+          "Iso": "SC",
+          "Iso3": null,
+          "Name": "SEYCHELLES",
+          "NumCode": null,
+          "PrintableName": "SYC"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 101
+        },
+        "ColumnValues": {
+          "Id": 101,
+          "Iso": "SL",
+          "Iso3": null,
+          "Name": "SIERRA LEONE",
+          "NumCode": null,
+          "PrintableName": "SLE"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 102
+        },
+        "ColumnValues": {
+          "Id": 102,
+          "Iso": "SG",
+          "Iso3": null,
+          "Name": "SINGAPORE",
+          "NumCode": null,
+          "PrintableName": "SGP"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 103
+        },
+        "ColumnValues": {
+          "Id": 103,
+          "Iso": "SK",
+          "Iso3": null,
+          "Name": "SLOVAKIA",
+          "NumCode": null,
+          "PrintableName": "SVK"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 105
+        },
+        "ColumnValues": {
+          "Id": 105,
+          "Iso": "SI",
+          "Iso3": null,
+          "Name": "SLOVENIA",
+          "NumCode": null,
+          "PrintableName": "SVN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 118
+        },
+        "ColumnValues": {
+          "Id": 118,
+          "Iso": "SB",
+          "Iso3": null,
+          "Name": "SOLOMON ISLANDS",
+          "NumCode": null,
+          "PrintableName": "SLB"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 106
+        },
+        "ColumnValues": {
+          "Id": 106,
+          "Iso": "SO",
+          "Iso3": null,
+          "Name": "SOMALIA",
+          "NumCode": null,
+          "PrintableName": "SOM"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 107
+        },
+        "ColumnValues": {
+          "Id": 107,
+          "Iso": "ZA",
+          "Iso3": null,
+          "Name": "SOUTH AFRICA",
+          "NumCode": null,
+          "PrintableName": "ZAF"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 108
+        },
+        "ColumnValues": {
+          "Id": 108,
+          "Iso": "GS",
+          "Iso3": null,
+          "Name": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+          "NumCode": null,
+          "PrintableName": null
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 109
+        },
+        "ColumnValues": {
+          "Id": 109,
+          "Iso": "ES",
+          "Iso3": null,
+          "Name": "SPAIN",
+          "NumCode": null,
+          "PrintableName": "ESP"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 110
+        },
+        "ColumnValues": {
+          "Id": 110,
+          "Iso": "LK",
+          "Iso3": null,
+          "Name": "SRI LANKA",
+          "NumCode": null,
+          "PrintableName": "LKA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 111
+        },
+        "ColumnValues": {
+          "Id": 111,
+          "Iso": "SD",
+          "Iso3": null,
+          "Name": "SUDAN",
+          "NumCode": null,
+          "PrintableName": "SDN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 112
+        },
+        "ColumnValues": {
+          "Id": 112,
+          "Iso": "SR",
+          "Iso3": null,
+          "Name": "SURINAME",
+          "NumCode": null,
+          "PrintableName": "SUR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 113
+        },
+        "ColumnValues": {
+          "Id": 113,
+          "Iso": "SJ",
+          "Iso3": null,
+          "Name": "SVALBARD AND JAN MAYEN",
+          "NumCode": null,
+          "PrintableName": "SJM"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 114
+        },
+        "ColumnValues": {
+          "Id": 114,
+          "Iso": "SZ",
+          "Iso3": null,
+          "Name": "SWAZILAND",
+          "NumCode": null,
+          "PrintableName": "SWZ"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 115
+        },
+        "ColumnValues": {
+          "Id": 115,
+          "Iso": "SE",
+          "Iso3": null,
+          "Name": "SWEDEN",
+          "NumCode": null,
+          "PrintableName": "SWE"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 116
+        },
+        "ColumnValues": {
+          "Id": 116,
+          "Iso": "CH",
+          "Iso3": null,
+          "Name": "SWITZERLAND",
+          "NumCode": null,
+          "PrintableName": "CHE"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 117
+        },
+        "ColumnValues": {
+          "Id": 117,
+          "Iso": "SY",
+          "Iso3": null,
+          "Name": "SYRIAN ARAB REPUBLIC",
+          "NumCode": null,
+          "PrintableName": "SYR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 91
+        },
+        "ColumnValues": {
+          "Id": 91,
+          "Iso": "TW",
+          "Iso3": "TWN",
+          "Name": "TAIWAN PROVINCE OF CHINA",
+          "NumCode": "158",
+          "PrintableName": "Taiwan Province of China"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 104
+        },
+        "ColumnValues": {
+          "Id": 104,
+          "Iso": "TJ",
+          "Iso3": null,
+          "Name": "TAJIKISTAN",
+          "NumCode": null,
+          "PrintableName": "TJK"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 90
+        },
+        "ColumnValues": {
+          "Id": 90,
+          "Iso": "TZ",
+          "Iso3": "TZA",
+          "Name": "TANZANIA UNITED REPUBLIC OF",
+          "NumCode": "834",
+          "PrintableName": "Tanzania United Republic of"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 74
+        },
+        "ColumnValues": {
+          "Id": 74,
+          "Iso": "TH",
+          "Iso3": null,
+          "Name": "THAILAND",
+          "NumCode": null,
+          "PrintableName": "THA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 62
+        },
+        "ColumnValues": {
+          "Id": 62,
+          "Iso": "TL",
+          "Iso3": null,
+          "Name": "TIMOR-LESTE",
+          "NumCode": null,
+          "PrintableName": null
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 63
+        },
+        "ColumnValues": {
+          "Id": 63,
+          "Iso": "TG",
+          "Iso3": null,
+          "Name": "TOGO",
+          "NumCode": null,
+          "PrintableName": "TGO"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 64
+        },
+        "ColumnValues": {
+          "Id": 64,
+          "Iso": "TK",
+          "Iso3": null,
+          "Name": "TOKELAU",
+          "NumCode": null,
+          "PrintableName": "TKL"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 65
+        },
+        "ColumnValues": {
+          "Id": 65,
+          "Iso": "TO",
+          "Iso3": null,
+          "Name": "TONGA",
+          "NumCode": null,
+          "PrintableName": "TON"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 66
+        },
+        "ColumnValues": {
+          "Id": 66,
+          "Iso": "TT",
+          "Iso3": null,
+          "Name": "TRINIDAD AND TOBAGO",
+          "NumCode": null,
+          "PrintableName": "TTO"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 67
+        },
+        "ColumnValues": {
+          "Id": 67,
+          "Iso": "TN",
+          "Iso3": null,
+          "Name": "TUNISIA",
+          "NumCode": null,
+          "PrintableName": "TUN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 68
+        },
+        "ColumnValues": {
+          "Id": 68,
+          "Iso": "TR",
+          "Iso3": null,
+          "Name": "TURKEY",
+          "NumCode": null,
+          "PrintableName": "TUR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 69
+        },
+        "ColumnValues": {
+          "Id": 69,
+          "Iso": "TM",
+          "Iso3": null,
+          "Name": "TURKMENISTAN",
+          "NumCode": null,
+          "PrintableName": "TKM"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 70
+        },
+        "ColumnValues": {
+          "Id": 70,
+          "Iso": "TC",
+          "Iso3": null,
+          "Name": "TURKS AND CAICOS ISLANDS",
+          "NumCode": null,
+          "PrintableName": "TCA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 71
+        },
+        "ColumnValues": {
+          "Id": 71,
+          "Iso": "TV",
+          "Iso3": null,
+          "Name": "TUVALU",
+          "NumCode": null,
+          "PrintableName": "TUV"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 72
+        },
+        "ColumnValues": {
+          "Id": 72,
+          "Iso": "UG",
+          "Iso3": null,
+          "Name": "UGANDA",
+          "NumCode": null,
+          "PrintableName": "UGA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 73
+        },
+        "ColumnValues": {
+          "Id": 73,
+          "Iso": "UA",
+          "Iso3": null,
+          "Name": "UKRAINE",
+          "NumCode": null,
+          "PrintableName": "UKR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 75
+        },
+        "ColumnValues": {
+          "Id": 75,
+          "Iso": "AE",
+          "Iso3": null,
+          "Name": "UNITED ARAB EMIRATES",
+          "NumCode": null,
+          "PrintableName": "ARE"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 88
+        },
+        "ColumnValues": {
+          "Id": 88,
+          "Iso": "GB",
+          "Iso3": null,
+          "Name": "UNITED KINGDOM",
+          "NumCode": null,
+          "PrintableName": "GBR"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 76
+        },
+        "ColumnValues": {
+          "Id": 76,
+          "Iso": "US",
+          "Iso3": null,
+          "Name": "UNITED STATES",
+          "NumCode": null,
+          "PrintableName": "USA"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 77
+        },
+        "ColumnValues": {
+          "Id": 77,
+          "Iso": "UM",
+          "Iso3": null,
+          "Name": "UNITED STATES MINOR OUTLYING ISLANDS",
+          "NumCode": null,
+          "PrintableName": null
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 78
+        },
+        "ColumnValues": {
+          "Id": 78,
+          "Iso": "UY",
+          "Iso3": null,
+          "Name": "URUGUAY",
+          "NumCode": null,
+          "PrintableName": "URY"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 79
+        },
+        "ColumnValues": {
+          "Id": 79,
+          "Iso": "UZ",
+          "Iso3": null,
+          "Name": "UZBEKISTAN",
+          "NumCode": null,
+          "PrintableName": "UZB"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 80
+        },
+        "ColumnValues": {
+          "Id": 80,
+          "Iso": "VU",
+          "Iso3": null,
+          "Name": "VANUATU",
+          "NumCode": null,
+          "PrintableName": "VUT"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 81
+        },
+        "ColumnValues": {
+          "Id": 81,
+          "Iso": "VE",
+          "Iso3": null,
+          "Name": "VENEZUELA",
+          "NumCode": null,
+          "PrintableName": "VEN"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 82
+        },
+        "ColumnValues": {
+          "Id": 82,
+          "Iso": "VN",
+          "Iso3": null,
+          "Name": "VIET NAM",
+          "NumCode": null,
+          "PrintableName": "VNM"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 83
+        },
+        "ColumnValues": {
+          "Id": 83,
+          "Iso": "VG",
+          "Iso3": "VGB",
+          "Name": "VIRGIN ISLANDS BRITISH",
+          "NumCode": "092",
+          "PrintableName": "Virgin Islands British"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 84
+        },
+        "ColumnValues": {
+          "Id": 84,
+          "Iso": "VI",
+          "Iso3": "VIR",
+          "Name": "VIRGIN ISLANDS U.S.",
+          "NumCode": "850",
+          "PrintableName": "Virgin Islands U.s."
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 85
+        },
+        "ColumnValues": {
+          "Id": 85,
+          "Iso": "WF",
+          "Iso3": "WLF",
+          "Name": "WALLIS AND FUTUNA",
+          "NumCode": "876",
+          "PrintableName": "Wallis and Futuna"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 86
+        },
+        "ColumnValues": {
+          "Id": 86,
+          "Iso": "EH",
+          "Iso3": "ESH",
+          "Name": "WESTERN SAHARA",
+          "NumCode": "732",
+          "PrintableName": "Western Sahara"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 87
+        },
+        "ColumnValues": {
+          "Id": 87,
+          "Iso": "YE",
+          "Iso3": "YEM",
+          "Name": "YEMEN",
+          "NumCode": "887",
+          "PrintableName": "Yemen"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 119
+        },
+        "ColumnValues": {
+          "Id": 119,
+          "Iso": "ZM",
+          "Iso3": "ZMB",
+          "Name": "ZAMBIA",
+          "NumCode": "894",
+          "PrintableName": "Zambia"
+        },
+        "Valid": true
+      },
+      {
+        "Table": "Country",
+        "Action": "Insert",
+        "PrimaryKey": {
+          "Id": 239
+        },
+        "ColumnValues": {
+          "Id": 239,
+          "Iso": "ZW",
+          "Iso3": "ZWE",
+          "Name": "ZIMBABWE",
+          "NumCode": "716",
+          "PrintableName": "Zimbabwe"
+        },
+        "Valid": true
+      }
+    ],
+    "Result": 239,
+    "Success": true
+  }
+}
