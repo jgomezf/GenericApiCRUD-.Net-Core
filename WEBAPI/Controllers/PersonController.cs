@@ -9,7 +9,7 @@ using ViewModel.ViewModels;
 
 namespace WEBAPI.Controllers
 {
-    [Route("api/Person")]
+    [Route("api/[Controller]")]
     [ApiController]
     public class PersonController : ControllerBase
     {
@@ -36,7 +36,12 @@ namespace WEBAPI.Controllers
         {
             try
             {
-                return Ok(_personBLL.GetList());
+                var result = _personBLL.GetList();
+                if (!result.Any())
+                {
+                    return NotFound();
+                }
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -55,6 +60,11 @@ namespace WEBAPI.Controllers
         {
             try
             {
+                var result = _personBLL.GetById(id);
+                if (result == null)
+                {
+                    return NotFound(id);
+                }
                 return Ok(_personBLL.GetById(id));
             }
             catch (Exception ex)
@@ -73,7 +83,12 @@ namespace WEBAPI.Controllers
         {
             try
             {
-                return Ok(_personBLL.Create(value));
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest("Not a valid model");
+                }
+
+                return Created("PostPerson", _personBLL.Create(value));                
             }
             catch (Exception ex)
             {
@@ -96,9 +111,9 @@ namespace WEBAPI.Controllers
                 {
                     return BadRequest("Not a valid model");
                 }
-                var x = _personBLL.Put(value);
+                var result = _personBLL.Put(value);
 
-                return Ok(x);
+                return Created("PutCountry", result);
             }
             catch (Exception ex)
             {
@@ -124,8 +139,12 @@ namespace WEBAPI.Controllers
         {
             try
             {
-                var x = await _personBLL.GetListAsync();
-                return Ok(x);
+                var result = await _personBLL.GetListAsync();
+                if (!result.Any())
+                {
+                    return NotFound();
+                }
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -145,8 +164,12 @@ namespace WEBAPI.Controllers
         {
             try
             {
-                var x = await _personBLL.GetByIdAsync(id);
-                return Ok(x);
+                var result = await _personBLL.GetByIdAsync(id);
+                if (result == null)
+                {
+                    return NotFound(id);
+                }
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -161,13 +184,18 @@ namespace WEBAPI.Controllers
         /// <param name="value"></param>
         /// <returns></returns>
         [HttpPost]
-        [Route("PostAsyncPerson")]
+        [Route("PostPersonAsync")]
         public async Task<IActionResult> PostAsync(PersonVM value)
         {
             try
             {
-                var x = await _personBLL.CreateAsync(value);
-                return Ok(x);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest("Not a valid model");
+                }
+
+                var result = await _personBLL.CreateAsync(value);
+                return Created("PostPersonAsync", result);
             }
             catch (Exception ex)
             {
@@ -181,7 +209,7 @@ namespace WEBAPI.Controllers
         /// <param name="value"></param>
         /// <returns></returns>
         [HttpPut]
-        [Route("PutAsyncPerson")]
+        [Route("PutPersonAsync")]
         public async Task<IActionResult> PutAsync(PersonVM value)
         {
             try
@@ -190,9 +218,9 @@ namespace WEBAPI.Controllers
                 {
                     return BadRequest("Not a valid model");
                 }
-                var x = await _personBLL.PutAsync(value);
+                var result = await _personBLL.PutAsync(value);
 
-                return Ok(x);
+                return Created("PutPersonAsync", result);
             }
             catch (Exception ex)
             {
