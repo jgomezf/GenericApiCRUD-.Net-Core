@@ -10,7 +10,7 @@ using ViewModel.ViewModels;
 
 namespace WEBAPI.Controllers
 {
-    [Route("api/Country")]
+    [Route("api/[Controller]")]
     [ApiController]
     public class CountryController : ControllerBase
     {
@@ -33,11 +33,22 @@ namespace WEBAPI.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("GetAllCountries")]
-        public IEnumerable<CountryVM> GetAll()
+        public IActionResult GetAll()
         {
-            Singleton.Instance.Audit = true;
-
-            return _CountryBLL.GetList();
+            try
+            {
+                Singleton.Instance.Audit = true;
+                var result = _CountryBLL.GetList();
+                if (!result.Any())
+                {
+                    return NotFound();
+                }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
         }
 
         /// <summary>
@@ -47,9 +58,21 @@ namespace WEBAPI.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("GetCountry")]
-        public CountryVM Get(int id)
+        public IActionResult Get(int id)
         {
-            return _CountryBLL.GetById(id);
+            try
+            {
+                var result = _CountryBLL.GetById(id);
+                if (result == null)
+                {
+                    return NotFound(id);
+                }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
         }
 
         /// <summary>
@@ -58,9 +81,22 @@ namespace WEBAPI.Controllers
         /// <param name="value"></param>
         [HttpPost]
         [Route("PostCountry")]
-        public void Post(CountryVM value)
+        public IActionResult Post(CountryVM value)
         {
-            _CountryBLL.Create(value);
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest("Not a valid model");
+                }
+
+                return Created("PostCountry", _CountryBLL.Create(value));
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.ToString());
+            }
         }
 
         /// <summary>
@@ -77,9 +113,9 @@ namespace WEBAPI.Controllers
                 {
                     return BadRequest("Not a valid model");
                 }
-                var x = _CountryBLL.Put(value);
+                var result = _CountryBLL.Put(value);
 
-                return Ok(x);
+                return Created("PutCountry", result);
             }
             catch (Exception ex)
             {
@@ -109,8 +145,12 @@ namespace WEBAPI.Controllers
         {
             try
             {
-                var x = await _CountryBLL.GetListAsync();
-                return Ok(x);
+                var result = await _CountryBLL.GetListAsync();
+                if (!result.Any())
+                {
+                    return NotFound();
+                }
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -129,8 +169,12 @@ namespace WEBAPI.Controllers
         {
             try
             {
-                var x = await _CountryBLL.GetByIdAsync(id);
-                return Ok(x);
+                var result = await _CountryBLL.GetByIdAsync(id);
+                if (result == null)
+                {
+                    return NotFound(id);
+                }
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -143,13 +187,18 @@ namespace WEBAPI.Controllers
         /// </summary>
         /// <param name="value"></param>
         [HttpPost]
-        [Route("PostAsyncCountry")]
+        [Route("PostCountryAsync")]
         public async Task<IActionResult> PostAsync(CountryVM value)
         {
             try
             {
-                var x = await _CountryBLL.CreateAsync(value);
-                return Ok(x);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest("Not a valid model");
+                }
+
+                var result = await _CountryBLL.CreateAsync(value);
+                return Created("PostCountryAsync", result);
             }
             catch (Exception ex)
             {
@@ -162,7 +211,7 @@ namespace WEBAPI.Controllers
         /// </summary>        
         /// <param name="value"></param>
         [HttpPut]
-        [Route("PutAsyncCountry")]
+        [Route("PutCountryAsync")]
         public async Task<IActionResult> PutAsync(CountryVM value)
         {
             try
@@ -171,9 +220,9 @@ namespace WEBAPI.Controllers
                 {
                     return BadRequest("Not a valid model");
                 }
-                var x = await _CountryBLL.PutAsync(value);
+                var result = await _CountryBLL.PutAsync(value);
 
-                return Ok(x);
+                return Created("PutCountryAsync", result);
             }
             catch (Exception ex)
             {

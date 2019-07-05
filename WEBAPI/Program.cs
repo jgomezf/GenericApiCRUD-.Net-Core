@@ -9,7 +9,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Unity;
+using Microsoft.Practices.Unity;
 
 namespace WEBAPI
 {
