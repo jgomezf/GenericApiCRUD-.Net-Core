@@ -9,7 +9,6 @@ using ViewModel.ViewModels;
 
 namespace WEBAPI.Controllers
 {
-    [Route("api/[Controller]")]
     [ApiController]
     public class PersonController : ControllerBase
     {
@@ -31,7 +30,7 @@ namespace WEBAPI.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [Route("GetAllPersons")]
+        [Route("api/people")]
         public IActionResult GetAll()
         {
             try
@@ -55,7 +54,7 @@ namespace WEBAPI.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("GetPerson")]
+        [Route("api/people/{id}")]
         public IActionResult Get(int id)
         {
             try
@@ -78,7 +77,7 @@ namespace WEBAPI.Controllers
         /// </summary>
         /// <param name="value"></param>
         [HttpPost]
-        [Route("PostPerson")]
+        [Route("api/people")]
         public IActionResult Post(PersonVM value)
         {
             try
@@ -102,7 +101,7 @@ namespace WEBAPI.Controllers
         /// <param name="value"></param>
         /// <returns></returns>
         [HttpPut]
-        [Route("PutPerson")]
+        [Route("api/people")]
         public IActionResult Put(PersonVM value)
         {
             try
@@ -134,7 +133,7 @@ namespace WEBAPI.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [Route("GetAllAsyncPersons")]
+        [Route("api/peopleAsync")]
         public async Task<IActionResult> GetAsync()
         {
             try
@@ -159,7 +158,7 @@ namespace WEBAPI.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("GetAsyncPerson")]
+        [Route("api/peopleAsync/{id}")]
         public async Task<IActionResult> GetAsync(int id)
         {
             try
@@ -184,7 +183,7 @@ namespace WEBAPI.Controllers
         /// <param name="value"></param>
         /// <returns></returns>
         [HttpPost]
-        [Route("PostPersonAsync")]
+        [Route("api/peopleAsync")]
         public async Task<IActionResult> PostAsync(PersonVM value)
         {
             try
@@ -209,7 +208,7 @@ namespace WEBAPI.Controllers
         /// <param name="value"></param>
         /// <returns></returns>
         [HttpPut]
-        [Route("PutPersonAsync")]
+        [Route("api/peopleAsync")]
         public async Task<IActionResult> PutAsync(PersonVM value)
         {
             try
